@@ -1,6 +1,7 @@
 name: apply_linters.py git trailer check
 
 on:
+  workflow_dispatch:
   push:
     branches: [mk2-main]
   pull_request:
